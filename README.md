@@ -1,6 +1,6 @@
 # 表单小助手 · Form Assistant
 
-![Version](https://img.shields.io/badge/version-1.2.1-CC785C)
+![Version](https://img.shields.io/badge/version-1.2.2-CC785C)
 
 Fill Word document form templates (.docx) with structured data. Auto-detects table-based form fields (label → value cell pairs), supports CJK/Latin mixed text with proper font switching, merged cells, and paragraph-based forms.
 
@@ -9,7 +9,7 @@ Part of [skill-publisher/skills](https://example.com/skills/skills) &mdash; by [
 ## Install
 
 ```bash
-npx skills add fill-form -g -y
+npx lovstudio skills add fill-form -g -y
 ```
 
 Requires: Python 3.8+ and `pip install python-docx`
